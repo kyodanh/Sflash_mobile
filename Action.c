@@ -306,31 +306,31 @@ Action()
 
 	lr_think_time(14);
 
-//	lr_start_transaction("on going task");
-//
-//	web_url("getObjectAccept_mobile", 
-//		"URL=http://performance-server-test.sflash.eiss.vn/report/getObjectAccept_mobile?fromDate=16-03-2021&toDate=18-03-2021", 
-//		"Resource=0", 
-//		"RecContentType=application/json", 
-//		"Referer=", 
-//		"Snapshot=t9.inf", 
-//		"Mode=HTML", 
-//		LAST);
-//
-//	lr_think_time(4);
-//
-//	web_url("countTask_mobile_3", 
-//		"URL=http://performance-server-test.sflash.eiss.vn/report/countTask_mobile?fromDate=2021-03-16%2000:00:00&toDate=2021-03-18%2023:59:00", 
-//		"Resource=0", 
-//		"RecContentType=application/json", 
-//		"Referer=", 
-//		"Snapshot=t10.inf", 
-//		"Mode=HTML", 
-//		LAST);
-//
-//	lr_end_transaction("on going task",LR_AUTO);
-//
-//	lr_think_time(8);
+	lr_start_transaction("on going task");
+
+	web_url("getObjectAccept_mobile", 
+		"URL=http://performance-server-test.sflash.eiss.vn/report/getObjectAccept_mobile?fromDate=16-03-2021&toDate=18-03-2021", 
+		"Resource=0", 
+		"RecContentType=application/json", 
+		"Referer=", 
+		"Snapshot=t9.inf", 
+		"Mode=HTML", 
+		LAST);
+
+	lr_think_time(4);
+
+	web_url("countTask_mobile_3", 
+		"URL=http://performance-server-test.sflash.eiss.vn/report/countTask_mobile?fromDate=2021-03-16%2000:00:00&toDate=2021-03-18%2023:59:00", 
+		"Resource=0", 
+		"RecContentType=application/json", 
+		"Referer=", 
+		"Snapshot=t10.inf", 
+		"Mode=HTML", 
+		LAST);
+
+	lr_end_transaction("on going task",LR_AUTO);
+
+	lr_think_time(8);
 
 	lr_start_transaction("Trans_DanhsachTask");
 

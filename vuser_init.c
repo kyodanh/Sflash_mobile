@@ -1,6 +1,6 @@
 /* -------------------------------------------------------------------------------
 	Script Title       : 
-	Script Description : 
+	Script Description : thêm mo´i paramater user va`o code
                         
                         
 	Recorder Version   : 0
@@ -52,5 +52,7 @@ vuser_init()
 		"Mode=HTML", 
 		LAST);
 
+	
+	
 	return 0;
 }

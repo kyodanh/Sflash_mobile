@@ -1,7 +1,7 @@
 [General]
 Type=Multi
 DefaultCfg=default.cfg
-ParameterFile=
+ParameterFile=Sflashmobile.prm
 GlobalParameterFile=
 NewFunctionHeader=1
 RunType=cci
@@ -52,7 +52,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="login__*delimiter*__Trans_CreateTask_1__*delimiter*__Trans_CreateTask_2__*delimiter*__Trans_CreateTask_3__*delimiter*__Trans_CreateTask_4__*delimiter*__Trans_CreateTask_5__*delimiter*__Trans_DanhsachTask__*delimiter*__Trans_OpenTask__*delimiter*__Trans_ChonTask__*delimiter*__Trans_AddWorkLog__*delimiter*__Trans_Comment__*delimiter*__Trans_CloseTask"
+Order="login__*delimiter*__Trans_CreateTask_1__*delimiter*__Trans_CreateTask_2__*delimiter*__Trans_CreateTask_3__*delimiter*__Trans_CreateTask_4__*delimiter*__Trans_CreateTask_5__*delimiter*__Trans_DanhsachTask__*delimiter*__Trans_OpenTask__*delimiter*__Trans_ChonTask__*delimiter*__Trans_AddWorkLog__*delimiter*__Trans_Comment__*delimiter*__Trans_CloseTask__*delimiter*__on going task"
 [StateManagement]
 LastReplayStatus=0
 [ActiveReplay]
@@ -71,3 +71,4 @@ Trans_ChonTask=
 Trans_AddWorkLog=
 Trans_Comment=
 Trans_CloseTask=
+"on going task"=
