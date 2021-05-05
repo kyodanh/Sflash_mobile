@@ -51,7 +51,7 @@ vuser_init()
 		"Snapshot=t2.inf", 
 		"Mode=HTML", 
 		LAST);
-
+//danhnc14
 	
 	
 	return 0;
