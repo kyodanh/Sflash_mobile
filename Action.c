@@ -329,7 +329,7 @@ Action()
 		LAST);
 
 	lr_end_transaction("on going task",LR_AUTO);
-
+//
 	lr_think_time(8);
 
 	lr_start_transaction("Trans_DanhsachTask");
